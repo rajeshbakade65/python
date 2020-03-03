@@ -1,0 +1,4 @@
+1. Python is a dynamic, interpreted (bytecode-compiled) language. 
+2. There are no type declarations of variables, parameters, functions, or methods in source code. This makes the code short and flexible, and you lose the compile-time type checking of the source code. 
+3. Python tracks the types of all values at runtime and flags code that does not make sense as it runs.
+
