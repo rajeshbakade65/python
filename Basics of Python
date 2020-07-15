@@ -2,3 +2,34 @@
 2. There are no type declarations of variables, parameters, functions, or methods in source code. This makes the code short and flexible, and you lose the compile-time type checking of the source code. 
 3. Python tracks the types of all values at runtime and flags code that does not make sense as it runs.
 
+#VARIABLES IN PYTHON
+
+## Variables are the specific memory location to store the values
+## Inside this variable, we can store integer, string, List, Tuple, Dictionary
+## No need to declare variable with its datatype. Python will interpret it internally.
+
+### Variable name naming convention
+    # It cannot be start with a number
+    # It must be start with a letter or the underscore character.
+    # Only alpha-numeric characters and underscores are allowed
+    # Variable names are case-sensitive
+
+name = 'Python' # String can be declared either by single quotes or double quotes
+print(name) # Python
+
+id = 123
+print(id)  # 123
+
+# Assign multiple values to Multiple Variables in single statement
+
+id, name, age = 1, "John", 26
+print(id) # 1
+print(name) # John
+print(age) # 26
+
+# assigning same value to multiple variables
+
+p = q = r = "John"
+print(p) # John
+print(q) # John
+print(r) # John
